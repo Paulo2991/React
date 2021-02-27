@@ -3,7 +3,6 @@ import { ExperiencieBar } from "../components/ExperiencieBar";
 import { Profile } from "../components/Profile";
 import {Countdown} from "../components/Countdown";
 import styles from '../styles/pages/Home.module.css';
-import estilo from '../styles/components/Countdown.module.css';
 import Head from 'next/head';
 export default function Home() {
   return (
@@ -19,9 +18,6 @@ export default function Home() {
           <Countdown />
         </div>
       </section>
-      <button type="button" className={estilo.Countdownbutton}>
-        Iniciar Um Ciclo
-      </button>
     </div>
   );
 }
