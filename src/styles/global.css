@@ -4,17 +4,17 @@
     box-sizing:border-box;
 }
 body,button{
-    font-family: 'Inter',sans-serif;
+    font-family:'Inter',sans-serif;
     cursor:pointer;
 }
 :root{
-    -white:#fff;
-    -background:#f2f3f5;
-    -gray-line:#DCDDE8;
-    -text:#6666;
-    -text-highligth:#B3B9FF;
-    -title:#2E3840;
-    -red:#E83F5B;
+    --white:#fff;
+    --background:#f2f3f5;
+    --gray-line:#DCDDE8;
+    --text:#6666;
+    --text-highligth:#B3B9FF;
+    --title:#2E3840;
+    --red:#E83F5B;
     --green:#4CD62B;
     --blue:#5965E0;
     --blue-dark:#4953B8;
